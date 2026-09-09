@@ -25,6 +25,7 @@ O programa simula uma partida de **Jogo da Velha entre dois jogadores**, utiliza
 ## 🎮 Exemplo do jogo
 
 ```text
+
 ======= JOGO DA VELHA =======
 
 nome do player (X): Joao
