@@ -53,6 +53,7 @@ Maria NAO FOI DESTA VEZ!
    | X |  
 -----------
    |   | X
+
 Joao VENCEU O JOGO !!!
 
 Maria NAO FOI DESTA VEZ!
