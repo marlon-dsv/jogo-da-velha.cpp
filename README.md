@@ -106,7 +106,7 @@ jogo-da-velha/
 
 Projeto acadêmico desenvolvido para a disciplina de **Algoritmos e Programação 1 – UNIVALI**.
 
-## 🎓 Objetivo
+## 🎓 Objetivo do projeto:
 
 Aplicar conceitos básicos de programação em C++, como:
 
