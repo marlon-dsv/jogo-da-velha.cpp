@@ -47,6 +47,12 @@ Maria NAO FOI DESTA VEZ!
 ### Vitória
 
 ```text
+
+ X | O |  
+-----------
+   | X |  
+-----------
+   |   | X
 Joao VENCEU O JOGO !!!
 
 Maria NAO FOI DESTA VEZ!
@@ -55,6 +61,13 @@ Maria NAO FOI DESTA VEZ!
 ### Empate
 
 ```text
+
+ X | O | O
+-----------
+ O | X | X
+-----------
+ X | O | X
+
 DEU VELHA !!! EMPATE
 ```
 
