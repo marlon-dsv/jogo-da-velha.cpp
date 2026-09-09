@@ -1,6 +1,6 @@
 # 🎮 Jogo da Velha em C++
 
-Projeto desenvolvido em **C++** para a disciplina de **Algoritmos e Programação – UNIVALI**.
+Projeto desenvolvido em **C++** para a disciplina de **Algoritmos e Programação 1 – UNIVALI**.
 
 O programa simula uma partida de **Jogo da Velha entre dois jogadores**, utilizando uma matriz `3x3`.
 
@@ -102,9 +102,9 @@ jogo-da-velha/
 └── .gitignore
 ```
 
-## 👨‍💻 Autor
+## 👨‍💻 Autor: Marlon Vritzl
 
-Projeto acadêmico desenvolvido para a disciplina de **Algoritmos e Programação – UNIVALI**.
+Projeto acadêmico desenvolvido para a disciplina de **Algoritmos e Programação 1 – UNIVALI**.
 
 ## 🎓 Objetivo
 
