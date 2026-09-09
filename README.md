@@ -22,24 +22,6 @@ O programa simula uma partida de **Jogo da Velha entre dois jogadores**, utiliza
 - `iostream`
 - `cstdlib`
 
-## ▶️ Como executar
-
-### Compilar
-
-Utilizando o `g++`:
-
-```bash
-g++ main.cpp -o jogo_da_velha
-```
-
-### Executar
-
-No Windows:
-
-```bash
-jogo_da_velha.exe
-```
-
 ## 🎮 Exemplo do jogo
 
 ```text
