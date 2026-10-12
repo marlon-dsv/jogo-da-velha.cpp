@@ -1,117 +1,62 @@
-# 🎮 Jogo da Velha em C++
+# Jogo da Velha em C++
 
-Projeto desenvolvido em **C++** para a disciplina de **Algoritmos e Programação 1 – UNIVALI**.
+## Sobre o Projeto
 
-O programa simula uma partida de **Jogo da Velha entre dois jogadores**, utilizando uma matriz `3x3`.
+Desenvolvimento de uma versão do clássico **Jogo da Velha** utilizando a linguagem C++ padrão, como parte das atividades acadêmicas da disciplina de Algoritmos e Programação da Universidade do Vale do Itajaí (UNIVALI).
 
-## 📌 Funcionalidades
+A aplicação permite uma partida entre dois jogadores humanos, com alternância de turnos, validação de jogadas e identificação automática das condições de vitória ou empate.
 
-- Cadastro dos nomes dos jogadores;
-- Tabuleiro 3x3;
-- Jogadores `X` e `O`;
-- Alternância entre os jogadores;
-- Validação de linhas e colunas;
-- Impede jogadas em posições ocupadas;
-- Verificação de vitória;
-- Verificação de empate;
-- Exibição do resultado final.
+O projeto tem como foco a aplicação prática de matrizes, estruturas condicionais, estruturas de repetição e lógica de programação.
 
-## 🛠️ Tecnologias
+## Funcionalidades
 
-- C++
-- `iostream`
-- `cstdlib`
+- Partida entre dois jogadores humanos.
+- Identificação dos jogadores por nome.
+- Representação do tabuleiro por uma matriz 3 × 3.
+- Alternância de turnos entre os símbolos `X` e `O`.
+- Exibição organizada do tabuleiro no terminal.
+- Entrada de jogadas por meio de coordenadas de linha e coluna.
+- Validação dos limites do tabuleiro.
+- Impedimento de jogadas em posições já ocupadas.
+- Solicitação de uma nova jogada ao mesmo jogador quando a entrada é inválida.
+- Verificação de combinações vencedoras nas linhas, colunas e diagonais.
+- Identificação de empate quando todas as posições estão preenchidas sem um vencedor.
+- Exibição do tabuleiro final e do resultado da partida.
 
-## 🎮 Exemplo do jogo
+## Regras do Jogo
 
-```text
+Dois jogadores alternam suas jogadas, posicionando seus respectivos símbolos em uma das nove casas do tabuleiro.
 
-======= JOGO DA VELHA =======
+A vitória ocorre quando um jogador consegue alinhar três símbolos iguais em uma das seguintes configurações:
 
-nome do player (X): Joao
-nome do player (o): Maria
+- Horizontal: três posições consecutivas na mesma linha.
+- Vertical: três posições consecutivas na mesma coluna.
+- Diagonal: três posições consecutivas em uma das diagonais do tabuleiro.
 
- X | O |  
------------
-   | X |  
------------
-   |   | X
+Caso todas as nove posições sejam preenchidas sem que nenhuma condição de vitória seja alcançada, a partida termina empatada.
 
-Joao VENCEU O JOGO !!!
+## Conceitos de Programação Aplicados
 
-Maria NAO FOI DESTA VEZ!
-```
+- **Matrizes bidimensionais:** representação e manipulação do tabuleiro 3 × 3.
+- **Variáveis e tipos de dados:** armazenamento dos nomes, símbolos e estados da partida.
+- **Estruturas condicionais:** validação de jogadas e identificação de resultados.
+- **Estruturas de repetição:** controle dos turnos e execução da partida.
+- **Operadores relacionais e lógicos:** verificação dos limites e das combinações vencedoras.
+- **Validação de entradas:** tratamento de coordenadas inválidas e posições ocupadas.
+- **Controle de fluxo:** alternância de jogadores e encerramento da partida.
 
-## 🏆 Saídas esperadas
+## Tecnologias
 
-### Vitória
+- **Linguagem:** C++ padrão
+- **Execução:** Terminal/console
+- **Estrutura de dados principal:** matriz bidimensional 3 × 3.
 
-```text
+## Objetivo Acadêmico
 
- X | O |  
------------
-   | X |  
------------
-   |   | X
+Consolidar os conhecimentos de programação estruturada por meio da implementação de um jogo completo, exercitando a manipulação de matrizes, a validação de dados e a construção de algoritmos para tomada de decisões.
 
-Joao VENCEU O JOGO !!!
+## Instituição
 
-Maria NAO FOI DESTA VEZ!
-```
+Universidade do Vale do Itajaí (UNIVALI)  
+Disciplina: Algoritmos e Programação 1
 
-### Empate
-
-```text
-
- X | O | O
------------
- O | X | X
------------
- X | O | X
-
-DEU VELHA !!! EMPATE
-```
-
-### Jogada inválida
-
-```text
-linha invalida!
-```
-
-ou:
-
-```text
-coluna invalida!
-```
-
-### Posição já ocupada
-
-```text
-jogada ja usada, tente novamente!
-```
-
-## 📂 Estrutura
-
-```text
-jogo-da-velha/
-├── main.cpp
-├── README.md
-└── .gitignore
-```
-
-## 👨‍💻 Autor: Marlon Vritzl
-
-Projeto acadêmico desenvolvido para a disciplina de **Algoritmos e Programação 1 – UNIVALI**.
-
-## 🎓 Objetivo do projeto:
-
-Aplicar conceitos básicos de programação em C++, como:
-
-- Matrizes;
-- Variáveis;
-- `if/else`;
-- `for`;
-- `while`;
-- `switch`;
-- Entrada e saída de dados;
-- Lógica de programação.
